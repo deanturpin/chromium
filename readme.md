@@ -1,3 +1,3 @@
 ```bash
-docker run --net host --env DISPLAY=:1 deanturpin/chromium
+docker run --net host --env DISPLAY=$DISPLAY deanturpin/chromium
 ```
